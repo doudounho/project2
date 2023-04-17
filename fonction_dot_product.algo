@@ -1,0 +1,20 @@
+FUNCTION function_dot_product(arr:array) : return_type
+VAR
+    i,v1,v2:integer;
+    p:FLOAT
+BEGIN
+    for i from 0 to 2  steep do 
+    write("Donner lelement",i+1, de la valeur v1)
+    read(v1(i))
+     write("Donner lelement",i+1, de la valeur v2)
+    read(v2(i))
+    end_for
+    p<--0
+     for i from 0 to 2  steep do
+    p<--p+v1(i)*v2(i)
+    fpour
+    write("le produit scalaire des vecteurs v1(i) et v2(i) est:"p)
+
+
+    RETURN value ;
+END

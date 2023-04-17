@@ -1,0 +1,13 @@
+PROCEDURE tri_par_insertion (var t:tab,n;entier)
+VAR
+    i,j,tmp:entier 
+BEGIN
+     pour i de 2 a n faire
+     tmp <--- t[i]
+     j<--i
+     tant que (j>i)et (t(j-1)> tmp)faire
+     t[j]<--t[j-1]
+     ftantque
+     t[j]<--tmp
+     fpour
+END

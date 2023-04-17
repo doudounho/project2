@@ -1,0 +1,22 @@
+PROCEDURE dot_product(var tab:array)
+VAR
+    i,n,v1,v2:INTEGER
+    p:FLOAT
+BEGIN
+    for i from 0 to 2  steep do 
+    write("Donner lelement",i+1, de la valeur v1)
+    read(v1(i))
+     write("Donner lelement",i+1, de la valeur v2)
+    read(v2(i))
+    end_for
+    p<--0
+     for i from 0 to 2  steep do
+    p<--p+v1(i)*v2(i)
+    fpour
+    write("le produit scalaire des vecteurs v1(i) et v2(i) est:"p)
+
+    for i from 0 to 2  steep do 
+    if(p=0)then
+    write(p)
+       
+END
